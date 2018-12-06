@@ -1,4 +1,4 @@
-package com.logicbeanzs.uberstylepolylineanimation;
+package com.logicbeanzs.uberpolylineanimation;
 
 import android.animation.Animator;
 import android.animation.AnimatorSet;
@@ -7,7 +7,6 @@ import android.animation.ObjectAnimator;
 import android.animation.ValueAnimator;
 import android.content.Context;
 import android.graphics.Color;
-import android.support.annotation.ColorInt;
 import android.support.annotation.ColorRes;
 import android.support.annotation.IntegerRes;
 import android.view.animation.AccelerateDecelerateInterpolator;

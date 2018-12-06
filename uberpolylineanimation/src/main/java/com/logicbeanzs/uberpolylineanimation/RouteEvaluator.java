@@ -1,4 +1,4 @@
-package com.logicbeanzs.uberstylepolylineanimation;
+package com.logicbeanzs.uberpolylineanimation;
 
 import android.animation.TypeEvaluator;
 
