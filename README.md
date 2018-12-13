@@ -38,7 +38,7 @@ polyLineList refers to the ArrayList<LatLng>, the coordinates which is to be dec
 ## Dependency
 <pre>
 <LI>App Level:
-implementation 'com.github.tintinscorpion:CarMarker-Animation:1.1'
+implementation 'com.github.tintinscorpion:Dual-color-Polyline-Animation:1.0'
 </LI>
 <br>
 <LI>Project Level:
