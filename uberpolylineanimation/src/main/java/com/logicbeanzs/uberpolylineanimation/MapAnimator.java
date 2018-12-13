@@ -47,33 +47,38 @@ public class MapAnimator {
 
     }
 
-
-    public static MapAnimator getInstance(Context context){
+    public static MapAnimator getInstance(){
         if(mapAnimator == null) mapAnimator = new MapAnimator();
         return mapAnimator;
     }
 
-    public static void setPercentCompletion(@IntegerRes int time) {
+    public void setPercentCompletion(@IntegerRes int time) {
         PERCENT_COMPLETION = time;
     }
 
-    public static void setColorFillCompletion(@IntegerRes int time) {
+    public void setColorFillCompletion(@IntegerRes int time) {
         COLOR_FILL_ANIMATION = time;
     }
-    public static void setPrimaryLineCompletion(@IntegerRes int time) {
+
+    public void setPrimaryLineCompletion(@IntegerRes int time) {
         FOREGROUND_TIME = time;
     }
-    public static void setDelayTime(@IntegerRes int time) {
+
+    public void setDelayTime(@IntegerRes int time) {
         DELAY_TIME = time;
     }
 
-    public static void setPrimaryLineColor(@ColorRes int color) {
+
+    public void setPrimaryLineColor(@ColorRes int color) {
         BLACK = color;
     }
-    public static void setSecondaryLineColor(@ColorRes int color) {
+
+    public void setSecondaryLineColor(@ColorRes int color) {
         GREY = color;
     }
-    public static void animateRoute(Context context, GoogleMap googleMap, List<LatLng> bangaloreRoute) {
+
+
+    public void animateRoute(GoogleMap googleMap, List<LatLng> bangaloreRoute) {
         if (firstRunAnimSet == null){
             firstRunAnimSet = new AnimatorSet();
         } else {
@@ -156,7 +161,7 @@ public class MapAnimator {
 
         });
 
-        ObjectAnimator foregroundRouteAnimator = ObjectAnimator.ofObject(context, "routeIncreaseForward", new RouteEvaluator(), bangaloreRoute.toArray());
+        ObjectAnimator foregroundRouteAnimator = ObjectAnimator.ofObject(this, "routeIncreaseForward", new RouteEvaluator(), bangaloreRoute.toArray());
         foregroundRouteAnimator.setInterpolator(new AccelerateDecelerateInterpolator());
         foregroundRouteAnimator.addListener(new Animator.AnimatorListener() {
             @Override
