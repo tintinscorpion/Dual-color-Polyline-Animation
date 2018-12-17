@@ -4,6 +4,7 @@
 <br>
 This library will help to show the polyline in dual color similar as Uber with animation in the demo. 
 <br><br>
+
 # Demo
 <img src="https://github.com/tintinscorpion/Dual-color-Polyline-Animation/blob/master/polylinegif.gif"/>
 
