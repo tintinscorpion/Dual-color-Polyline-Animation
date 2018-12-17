@@ -1,5 +1,6 @@
 # Dual-color-Polyline-Animation
 [![](https://jitpack.io/v/tintinscorpion/CarMarker-Animation.svg)](https://jitpack.io/#tintinscorpion/CarMarker-Animation)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/87fcbb61c5a147319acab663ae64815e)](https://www.codacy.com/app/tintinscorpion/Dual-color-Polyline-Animation?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=tintinscorpion/Dual-color-Polyline-Animation&amp;utm_campaign=Badge_Grade)
 <br>
 This library will help to show the polyline in dual color similar as Uber with animation in the demo. 
 <br><br>
