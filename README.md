@@ -1,6 +1,7 @@
 # Dual-color-Polyline-Animation
 [![](https://jitpack.io/v/tintinscorpion/CarMarker-Animation.svg)](https://jitpack.io/#tintinscorpion/CarMarker-Animation)
-
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-OverwatchProgress-blue.svg?style=flat)](https://android-arsenal.com/details/1/7381)
+[![Platform](https://img.shields.io/badge/platform-android-green.svg)](http://developer.android.com/index.html)
 <br>
 This library will help to show the polyline in dual color similar as Uber with animation in the demo. 
 <br><br>
