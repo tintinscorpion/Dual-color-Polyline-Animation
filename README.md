@@ -24,7 +24,6 @@ polyLineList refers to the ArrayList<LatLng>, the coordinates which is to be dec
 </pre>
 </LI>
  <br><br>
- <LI>
   <ul>Note:
    <code>
    You can change the color of the default polyline by passing :
@@ -35,8 +34,7 @@ polyLineList refers to the ArrayList<LatLng>, the coordinates which is to be dec
    <br> <br>
    If you are changing the default colors, call it before animateRoute() method call.
    </code>
- </LI>
-</UL>
+</ul>
 
 ## Dependency
 <pre>
@@ -52,11 +50,11 @@ maven { url 'https://jitpack.io' }
 
 
 # Developers
-<UL>
+<ul>
 <LI><a href="https://github.com/tintinscorpion">Pritam Dasgupta</a>
-</UL>
+</ul>
  
- <BR></BR>
+ <br><br>
  ## License
 <code>
    MIT License
