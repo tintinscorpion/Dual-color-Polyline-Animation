@@ -36,7 +36,7 @@ polyLineList refers to the ArrayList<LatLng>, the coordinates which is to be dec
    If you are changing the default colors, call it before animateRoute() method call.
    </code>
  </LI>
-
+</UL>
 
 ## Dependency
 <pre>
