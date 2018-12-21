@@ -55,7 +55,7 @@ maven { url 'https://jitpack.io' }
 <UL>
 <LI><a href="https://github.com/tintinscorpion">Pritam Dasgupta</a>
 </UL>
- 
+ <BR></BR>
  ## License
 <code>
    MIT License
