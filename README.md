@@ -46,18 +46,17 @@ implementation 'com.github.tintinscorpion:Dual-color-Polyline-Animation:1.0'
 maven { url 'https://jitpack.io' }
 </LI>
 </pre>
-
  <br><br>
 
 # Developers
 <ul>
 <LI><a href="https://github.com/tintinscorpion">Pritam Dasgupta</a>
 </ul>
- 
  <br><br>
  
  ## License
-<code>
+ <pre>
+ <code>
    MIT License
 
 Copyright (c) 2018 Pritam Dasgupta
@@ -80,3 +79,4 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 </code>
+</pre>
