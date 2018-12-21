@@ -8,8 +8,7 @@ This library will help to show the polyline in dual color similar as Uber with a
 
 # Demo
 
-<img src="https://github.com/tintinscorpion/Dual-color-Polyline-Animation/blob/master/polylinegif.gif"/>
-
+![ScreenShot](/polylinegif.gif)
 <br><br>
 
 ## Steps:
