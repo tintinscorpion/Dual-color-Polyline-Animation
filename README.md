@@ -18,8 +18,7 @@ Pass the googlemap context and Latlng points stored in arraylist.
 ``` java
 MapAnimator.getInstance().animateRoute(googleMap, polyLineList);
 ```
-<br><br>
-
+<br>
 polyLineList refers to the ArrayList<LatLng>, the coordinates which is to be decoded from the directions api of google.
 
  <br>
@@ -30,7 +29,7 @@ polyLineList refers to the ArrayList<LatLng>, the coordinates which is to be dec
    MapAnimator.getInstance().setPrimaryLineColor(color);
    MapAnimator.getInstance().setSecondaryLineColor(color);
    ```
-   <br> <br>
+   <br>
    If you are changing the default colors, call it before animateRoute() method call.
 
 
@@ -50,26 +49,27 @@ maven { url 'https://jitpack.io' }
 
 <a href="https://github.com/tintinscorpion">Pritam Dasgupta</a>
   
- ### License
+  
+ ## License
  
-   MIT License
-Copyright (c) 2018 Pritam Dasgupta
+ MIT License
+ Copyright (c) 2018 Pritam Dasgupta
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+ The above copyright notice and this permission notice shall be included in all
+ copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ SOFTWARE.
 
