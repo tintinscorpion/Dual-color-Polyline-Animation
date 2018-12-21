@@ -46,10 +46,8 @@ maven { url 'https://jitpack.io' }
  <br><br>
 
 # Developers
-<ul>
-<LI><a href="https://github.com/tintinscorpion">Pritam Dasgupta</a>
-</ul>
- 
+
+ <LI><a href="https://github.com/tintinscorpion">Pritam Dasgupta</a></LI>
  <br><br>
  
  ## License
