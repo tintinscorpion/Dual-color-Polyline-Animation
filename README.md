@@ -47,7 +47,7 @@ maven { url 'https://jitpack.io' }
 </LI>
 </pre>
 
-
+ <br><br>
 
 # Developers
 <ul>
@@ -55,6 +55,7 @@ maven { url 'https://jitpack.io' }
 </ul>
  
  <br><br>
+ 
  ## License
 <code>
    MIT License
