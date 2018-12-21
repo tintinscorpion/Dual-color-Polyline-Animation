@@ -32,9 +32,10 @@ polyLineList refers to the ArrayList<LatLng>, the coordinates which is to be dec
    ```
    <br> <br>
    If you are changing the default colors, call it before animateRoute() method call.
-</ul>
+
 
 ## Dependency
+
 ```groovy
 App Level:
 implementation 'com.github.tintinscorpion:Dual-color-Polyline-Animation:1.0'
@@ -47,12 +48,13 @@ maven { url 'https://jitpack.io' }
 
 # Developers
 
- <LI><a href="https://github.com/tintinscorpion">Pritam Dasgupta</a></LI>
+<a href="https://github.com/tintinscorpion">Pritam Dasgupta</a>
+ 
  <br><br>
  
  ## License
+ 
    MIT License
-
 Copyright (c) 2018 Pritam Dasgupta
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
