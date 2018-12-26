@@ -48,8 +48,7 @@ maven { url 'https://jitpack.io' }
 
 <a href="https://github.com/tintinscorpion">Pritam Dasgupta</a>
   
-  
- ## License
+## License
  
  MIT License
  Copyright (c) 2018 Pritam Dasgupta
