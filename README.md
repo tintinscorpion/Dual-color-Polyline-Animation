@@ -1,6 +1,6 @@
 # Dual-color-Polyline-Animation
 [![](https://jitpack.io/v/tintinscorpion/Dual-color-Polyline-Animation.svg)](https://jitpack.io/#tintinscorpion/Dual-color-Polyline-Animation)
-[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Dual%20color%20Polyline-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/7381)
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Dual%20color%20Polyline-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/7422)
 [![BCH compliance](https://bettercodehub.com/edge/badge/tintinscorpion/Dual-color-Polyline-Animation?branch=master)](https://bettercodehub.com/)
 [![Platform](https://img.shields.io/badge/platform-android-green.svg)](http://developer.android.com/index.html)
 <br>
