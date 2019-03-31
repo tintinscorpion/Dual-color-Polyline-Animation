@@ -21,7 +21,7 @@ import com.google.android.gms.maps.model.PolylineOptions;
 import java.util.List;
 
 /**
- * Created by amal.chandran on 22/12/16.
+ * Created by pritam on 22/12/16.
  */
 
 public class MapAnimator {
