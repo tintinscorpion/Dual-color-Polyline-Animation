@@ -25,7 +25,7 @@ Pass the googlemap context and Latlng points stored in arraylist.
    MapAnimator.INSTANCE.animateRoute(googleMap, polyLineList);
 ```
 <br>
-polyLineList refers to the ArrayList<LatLng>, the coordinates which is to be decoded from the directions api of google.
+polyLineList refers to the List<LatLng>, the coordinates which is to be decoded from the directions api of google.
 
  <br>
  Note:
