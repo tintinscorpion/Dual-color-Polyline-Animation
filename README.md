@@ -25,10 +25,11 @@ Pass the googlemap context and Latlng points stored in arraylist.
    MapAnimator.INSTANCE.animateRoute(googleMap, polyLineList);
 ```
 <br>
-polyLineList refers to the List<LatLng>, the coordinates which is to be decoded from the directions api of google.
+polyLineList refers to the List of LatLng, the coordinates which is to be decoded from the directions api of google.
 
- <br>
- Note:
+
+
+### Additional:
    You can change the color and animation time and the width of the polyline by passing :
 
    ``` java 
