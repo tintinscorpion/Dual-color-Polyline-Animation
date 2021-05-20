@@ -45,7 +45,8 @@ polyLineList refers to the List<LatLng>, the coordinates which is to be decoded 
    <br>
    If you are calling these methods, call it before animateRoute() method call else it won't reflect.
 
-   <br>
+   
+   
 ## Note:
    If you are using proguard then, write this in proguard-rules.pro 
    
