@@ -29,21 +29,21 @@ polyLineList refers to the ArrayList<LatLng>, the coordinates which is to be dec
 
  <br>
  Note:
-   You can change the color of the default polyline by passing :
+   You can change the color and animation time and the width of the polyline by passing :
 
    ``` java 
-   In Kotlin: 
 
    MapAnimator.setPrimaryLineColor(color)
-   MapAnimator.setSecondaryLineColor(color)
+   MapAnimator.setSecondaryLineColor(color) 
+   MapAnimator.setPercentCompletion(@IntegerRes time: Int) default is 2500 //amount of time to draw the initial polyline 
+   MapAnimator.setColorFillCompletion(@IntegerRes time: Int) default is 1800 //amount of time to refill the primary color
+   MapAnimator.setDelayTime(@IntegerRes time: Int) default is 200 //amount of time for delaying to run the sequenceof animation
+   MapAnimator.setPrimaryLineCompletion(@IntegerRes time: Int) default is 2000 //amount of time required for the animation to reach from point A to B
+   MapAnimator.setPolylineWidth(width: Float) default is 8f 
 
-  In Java:
-  
-  MapAnimator.INSTANCE.setPrimaryLineColor(color);
-  MapAnimator.INSTANCE.setSecondaryLineColor(color);
    ```
    <br>
-   If you are changing the default colors, call it before animateRoute() method call.
+   If you are calling these methods, call it before animateRoute() method call else it won't reflect.
 
 
 ## Dependency
