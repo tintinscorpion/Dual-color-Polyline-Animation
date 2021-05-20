@@ -16,7 +16,13 @@ This library will help to show the polyline in dual color similar as Uber with a
 Pass the googlemap context and Latlng points stored in arraylist.
 
 ``` java
-MapAnimator.getInstance().animateRoute(googleMap, polyLineList);
+   In Kotlin:
+
+   MapAnimator.animateRoute(googleMap, polyLineList)
+
+   In Java:
+
+   MapAnimator.INSTANCE.animateRoute(googleMap, polyLineList);
 ```
 <br>
 polyLineList refers to the ArrayList<LatLng>, the coordinates which is to be decoded from the directions api of google.
@@ -25,9 +31,16 @@ polyLineList refers to the ArrayList<LatLng>, the coordinates which is to be dec
  Note:
    You can change the color of the default polyline by passing :
 
-   ``` java
-   MapAnimator.getInstance().setPrimaryLineColor(color);
-   MapAnimator.getInstance().setSecondaryLineColor(color);
+   ``` java 
+   In Kotlin: 
+
+   MapAnimator.setPrimaryLineColor(color)
+   MapAnimator.setSecondaryLineColor(color)
+
+  In Java:
+  
+  MapAnimator.INSTANCE.setPrimaryLineColor(color);
+  MapAnimator.INSTANCE.setSecondaryLineColor(color);
    ```
    <br>
    If you are changing the default colors, call it before animateRoute() method call.
@@ -37,7 +50,7 @@ polyLineList refers to the ArrayList<LatLng>, the coordinates which is to be dec
 
 ```groovy
 App Level:
-implementation 'com.github.tintinscorpion:Dual-color-Polyline-Animation:1.0'
+implementation 'com.github.tintinscorpion:Dual-color-Polyline-Animation:{latest_version}'
 ```
 ```groovy
 Project Level:
