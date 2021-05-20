@@ -44,19 +44,21 @@ polyLineList refers to the ArrayList<LatLng>, the coordinates which is to be dec
    ```
    <br>
    If you are calling these methods, call it before animateRoute() method call else it won't reflect.
+
    <br>
-   #Note:
+## Note:
    If you are using proguard then, write this in proguard-rules.pro 
    
    ``` java
-   For android studio 4.0 and above- 
+   //For android studio 4.0 and above- 
    -keepclassmembers class com.logicbeanzs.uberpolylineanimation.* {
      <fields>;
      <init>();
      <methods>;
    }
   
-   below 4.0-
+
+   //For android studio below 4.0-
    -keep class com.logicbeanzs.uberpolylineanimation.**
   ```
 
