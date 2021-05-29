@@ -12,6 +12,19 @@ This library will help to show the polyline in dual color similar as Uber with a
 <img src="https://github.com/tintinscorpion/Dual-color-Polyline-Animation/blob/master/polylinegif.gif" width="250" height="400"/>
 <br><br>
 
+
+## Dependency
+
+```groovy
+App Level:
+implementation 'com.github.tintinscorpion:Dual-color-Polyline-Animation:{latest_version}'
+```
+```groovy
+Project Level:
+maven { url 'https://jitpack.io' }
+```
+
+
 ## Steps:
 Pass the googlemap context and Latlng points stored in arraylist.
 
@@ -64,16 +77,6 @@ polyLineList refers to the List of LatLng, the coordinates which is to be decode
    -keep class com.logicbeanzs.uberpolylineanimation.**
   ```
 
-## Dependency
-
-```groovy
-App Level:
-implementation 'com.github.tintinscorpion:Dual-color-Polyline-Animation:{latest_version}'
-```
-```groovy
-Project Level:
-maven { url 'https://jitpack.io' }
-```
  <br><br>
 
 # Developers
