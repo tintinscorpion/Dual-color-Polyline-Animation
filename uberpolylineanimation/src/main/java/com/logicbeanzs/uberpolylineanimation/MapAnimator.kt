@@ -84,7 +84,7 @@ object MapAnimator {
 
         val optionsBackground = PolylineOptions().add(bangaloreRoute[0]).color(GREY).width(POLYLINE_WIDTH)
         backgroundPolyline = googleMap.addPolyline(optionsBackground)
-        optionsForeground = PolylineOptions().add(bangaloreRoute[0]).color(Color.BLACK).width(POLYLINE_WIDTH).also {
+        optionsForeground = PolylineOptions().add(bangaloreRoute[0]).color(BLACK).width(POLYLINE_WIDTH).also {
             foregroundPolyline = googleMap.addPolyline(it)
         }
         val percentageCompletion = ValueAnimator.ofInt(0, 100)
@@ -112,7 +112,7 @@ object MapAnimator {
             override fun onAnimationCancel(animation: Animator) {}
             override fun onAnimationRepeat(animation: Animator) {}
         })
-        val colorAnimation = ValueAnimator.ofObject(ArgbEvaluator(), GREY, Color.BLACK)
+        val colorAnimation = ValueAnimator.ofObject(ArgbEvaluator(), GREY, BLACK)
         colorAnimation.interpolator = AccelerateInterpolator()
         colorAnimation.duration = COLOR_FILL_ANIMATION.toLong() // milliseconds
         colorAnimation.addUpdateListener { animator -> foregroundPolyline?.color = animator.animatedValue as Int }
