@@ -1,14 +1,8 @@
-repositories {
-    mavenCentral()
-}
-
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
     compileSdkVersion 30
-
-
 
     defaultConfig {
         minSdkVersion 17
@@ -42,4 +36,10 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
     implementation "androidx.core:core-ktx:1.5.0"
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+}
+
+allprojects {
+    repositories {
+       mavenCentral()
+    }
 }
