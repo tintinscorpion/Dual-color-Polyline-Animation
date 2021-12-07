@@ -17,6 +17,13 @@ buildscript {
     }
 }
 
+allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}
+
 plugins {
   id "org.sonarqube" version "3.2.0"
 }
@@ -27,13 +34,6 @@ sonarqube {
     property "sonar.organization", "tintinscorpion"
     property "sonar.host.url", "https://sonarcloud.io"
   }
-}
-
-allprojects {
-    repositories {
-        google()
-        jcenter()
-    }
 }
 
 task clean(type: Delete) {
